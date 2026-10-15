@@ -1,0 +1,32 @@
+.summary-card {
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #e8ecf0;
+  border-top: 4px solid #4f8ef7;
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  min-width: 0;
+}
+
+.summary-card__title {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #8a94a6;
+}
+
+.summary-card__value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1a2340;
+  line-height: 1.1;
+}
+
+.summary-card__subtitle {
+  font-size: 0.8rem;
+  color: #8a94a6;
+}

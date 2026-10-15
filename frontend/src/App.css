@@ -1,0 +1,26 @@
+/* ── Root layout ─────────────────────────────────────────── */
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #f4f6f9;
+}
+
+/* ── Right column (header + page content) ────────────────── */
+.app-main {
+  flex: 1;
+  min-width: 0;           /* prevent flex overflow */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ── Scrollable page area ────────────────────────────────── */
+.app-content {
+  flex: 1;
+  padding: 28px;
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .app-content { padding: 16px; }
+}

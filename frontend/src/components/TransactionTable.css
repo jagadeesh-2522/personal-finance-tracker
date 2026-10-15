@@ -1,0 +1,110 @@
+.tx-card {
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #e8ecf0;
+  padding: 24px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.tx-table-wrap { overflow-x: auto; }
+
+.tx-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.tx-table thead th {
+  text-align: left;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #8a94a6;
+  padding: 0 12px 10px 0;
+  border-bottom: 1px solid #e8ecf0;
+}
+
+.tx-table tbody tr {
+  border-bottom: 1px solid #f4f6f9;
+}
+
+.tx-table tbody tr:last-child { border-bottom: none; }
+
+.tx-table tbody tr:hover { background: #fafbfd; }
+
+.tx-table tbody td {
+  padding: 12px 12px 12px 0;
+  color: #3a4255;
+  vertical-align: middle;
+}
+
+.tx-table__date { color: #8a94a6; white-space: nowrap; font-size: 0.8rem; }
+
+.tx-table__title { font-weight: 500; color: #1a2340; }
+
+.tx-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 0.73rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.tx-table__amount-col { text-align: right; }
+.tx-table__amount {
+  font-weight: 600;
+  color: #1a2340;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.tx-table__actions-col {
+  text-align: center;
+  width: 70px;
+}
+
+.tx-table__actions {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.tx-btn-action {
+  background: transparent;
+  border: 1px solid #d0d8e0;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: #666;
+}
+
+.tx-btn-action:hover {
+  border-color: #aaa;
+  color: #333;
+}
+
+.tx-btn-edit {
+  color: #4f8ef7;
+  border-color: #4f8ef7;
+}
+
+.tx-btn-edit:hover {
+  background: #4f8ef7;
+  color: white;
+}
+
+.tx-btn-delete {
+  color: #f7534f;
+  border-color: #f7534f;
+}
+
+.tx-btn-delete:hover {
+  background: #f7534f;
+  color: white;
+}
+

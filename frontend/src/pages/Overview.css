@@ -1,0 +1,25 @@
+.overview { display: flex; flex-direction: column; gap: 24px; }
+
+.overview__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.overview__charts {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 16px;
+}
+
+@media (max-width: 1024px) {
+  .overview__cards { grid-template-columns: repeat(2, 1fr); }
+  .overview__charts { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 480px) {
+  .overview__cards { grid-template-columns: 1fr 1fr; }
+}
+
+.overview__status { font-size: 0.875rem; color: #8a94a6; padding: 12px 0; }
+.overview__status--error { color: #e05c5c; }
