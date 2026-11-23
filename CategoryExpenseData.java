@@ -1,0 +1,18 @@
+public class CategoryExpenseData {
+    
+    private String categoryName;
+    private double totalAmount;
+    
+    public CategoryExpenseData(String categoryName, double totalAmount) {
+        this.categoryName = categoryName;
+        this.totalAmount = totalAmount;
+    }
+    
+    public String getCategoryName() {
+        return categoryName;
+    }
+    
+    public double getTotalAmount() {
+        return totalAmount;
+    }
+}
